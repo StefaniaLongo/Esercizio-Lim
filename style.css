@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+body{
+    background-image: url(/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 60%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    border-radius: 8px; 
+}
+
+header > .logo{
+    text-align: center;
+    padding: 64px 0 12px 0;
+}
+
+.logo > img{
+    width: 140px; 
+}
+
+.logo > h2{
+    font-size: 32px;
+    color: rgb(107, 223, 30);
+}
+
+.nav-section{
+    width: 80%;
+    padding: 24px 0;
+    background-color: rgb(107, 223, 30);
+    text-align: center;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.nav-section a{
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.nav-section a:hover{
+    background-color:  rgb(44, 108, 1);
+    color: white;
+}
+
+.main-section{
+    width: 80%;
+    margin: auto;
+    color: #ffffff;
+    padding: 24px 0;
+}
+
+.main-section .carica {
+    padding: 24px 0;
+}
+
+.main-section .carica > span{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.main-section .carica h5{
+    margin-top: 4px;
+}
+
+.main-section .carica .rettangolo1{
+    width: 40%;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+.main-section .carica .rettangolo2{
+    width: 80%;
+    height: 20px;
+    background-color: green;
+    border-radius: 4px;
+}
+
+.main-section .carica .rettangolo3{
+    width: 20%;
+    height: 20px;
+    background-color: rgba(199, 24, 24, 0.858);
+    border-radius: 4px;
+}
+
+
+
